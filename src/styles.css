@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "ClashGrotesk";
+  src: local("ClashGrotesk-Regular"), url("./fonts/ClashGrotesk-Regular.otf"), format("truetype");
+}
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "ClashGrotesk";
     box-sizing: border-box;
   }
 
