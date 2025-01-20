@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './styles.css';
-import './fonts/ClashGrotesk-Regular.otf'
+import './fonts/ClashGrotesk-Regular.otf';
+import StarRating from './components';
 
 
 export default function App() {
@@ -62,6 +63,11 @@ export default function App() {
       )
     })}
     </ul>
+    <div>
+     <StarRating noOfStars={10}/>
+    </div>
    </>
-  )
+
+)
+
 };
